@@ -21,4 +21,4 @@ with open('movies.txt', 'w') as f:
         f.write(m + '\n')
         
 df = pd.read_fwf('movies.txt')
-df.to_csv('movies.csv', index=False)
+df.to_csv('movies.csv',index=False)
